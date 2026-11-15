@@ -1,0 +1,45 @@
+ts,txn_id,customer_id,account_id,kind,amount,status,idempotency_key,risk_score,tier,network,lock_state,version,note
+2026-11-15 08:36:48.883,txn_3033,cust_4471,account_4471,payment,250.0,INITIATED,idem_395e-173f-99ea,,,outage,none,,
+2026-11-15 08:36:48.911,txn_3033,cust_4471,account_4471,payment,250.0,PENDING,idem_395e-173f-99ea,,,outage,none,,timeout=UNKNOWN
+2026-11-15 08:36:52.640,txn_3033,cust_4471,account_4471,payment,250.0,SUCCESS,idem_395e-173f-99ea,11,LOW,outage,none,,auto_approved
+2026-11-15 08:37:07.870,txn_A,cust_4471,account_4471,deposit,5000.0,COMMITTED,,,,,micro-lock,2,
+2026-11-15 08:37:37.498,txn_8516,cust_new_767,account__767,payment,250.0,INITIATED,idem_1a4b-7c7f-8a6c,,,stable,none,,
+2026-11-15 08:37:37.502,txn_8516,cust_new_767,account__767,payment,250.0,PENDING,idem_1a4b-7c7f-8a6c,,,stable,none,,timeout=UNKNOWN
+2026-11-15 08:37:38.284,txn_8516,cust_new_767,account__767,payment,250.0,FAILED,idem_1a4b-7c7f-8a6c,85,HIGH,stable,none,,escalated: human triage
+2026-11-15 08:37:45.978,txn_6076,cust_new_919,account__919,payment,250.0,INITIATED,idem_e7e2-9b79-4c70,,,outage,none,,
+2026-11-15 08:37:45.987,txn_6076,cust_new_919,account__919,payment,250.0,PENDING,idem_e7e2-9b79-4c70,,,outage,none,,timeout=UNKNOWN
+2026-11-15 08:37:46.716,txn_6076,cust_new_919,account__919,payment,250.0,SUCCESS,idem_e7e2-9b79-4c70,51,MEDIUM,outage,none,,oob_verified
+2026-11-15 08:37:52.953,txn_7587,cust_4471,account_4471,payment,250.0,INITIATED,idem_2704-b22d-0eaa,,,outage,none,,
+2026-11-15 08:37:52.957,txn_7587,cust_4471,account_4471,payment,250.0,PENDING,idem_2704-b22d-0eaa,,,outage,none,,timeout=UNKNOWN
+2026-11-15 08:37:53.700,txn_7587,cust_4471,account_4471,payment,250.0,SUCCESS,idem_2704-b22d-0eaa,11,LOW,outage,none,,auto_approved
+2026-11-15 08:37:56.641,txn_5064,cust_4471,account_4471,payment,250.0,INITIATED,idem_233d-565f-b433,,,stable,none,,
+2026-11-15 08:37:56.645,txn_5064,cust_4471,account_4471,payment,250.0,PENDING,idem_233d-565f-b433,,,stable,none,,timeout=UNKNOWN
+2026-11-15 08:37:57.345,txn_5064,cust_4471,account_4471,payment,250.0,SUCCESS,idem_233d-565f-b433,21,LOW,stable,none,,auto_approved
+2026-11-15 08:37:59.410,txn_3897,cust_4471,account_4471,payment,250.0,INITIATED,idem_29df-5185-a5f5,,,stable,none,,
+2026-11-15 08:37:59.419,txn_3897,cust_4471,account_4471,payment,250.0,PENDING,idem_29df-5185-a5f5,,,stable,none,,timeout=UNKNOWN
+2026-11-15 08:38:00.198,txn_3897,cust_4471,account_4471,payment,250.0,SUCCESS,idem_29df-5185-a5f5,20,LOW,stable,none,,auto_approved
+2026-11-15 08:53:16.882,txn_5162,cust_4471,account_4471,payment,250.0,INITIATED,idem_1b91-5521-1e00,,,outage,none,,
+2026-11-15 08:53:16.887,txn_5162,cust_4471,account_4471,payment,250.0,PENDING,idem_1b91-5521-1e00,,,outage,none,,timeout=UNKNOWN
+2026-11-15 08:53:19.966,txn_5162,cust_4471,account_4471,payment,250.0,SUCCESS,idem_1b91-5521-1e00,11,LOW,outage,none,,auto_approved
+2026-11-15 08:53:54.560,txn_1173,cust_new_331,account__331,payment,250.0,INITIATED,idem_7542-d4a7-5e6a,,,stable,none,,
+2026-11-15 08:53:54.569,txn_1173,cust_new_331,account__331,payment,250.0,PENDING,idem_7542-d4a7-5e6a,,,stable,none,,timeout=UNKNOWN
+2026-11-15 08:53:54.950,txn_1173,cust_new_331,account__331,payment,250.0,FAILED,idem_7542-d4a7-5e6a,84,HIGH,stable,none,,escalated: human triage
+2026-11-15 08:54:11.152,txn_5431,cust_new_946,account__946,payment,250.0,INITIATED,idem_31ed-fdf6-078c,,,outage,none,,
+2026-11-15 08:54:11.154,txn_5431,cust_new_946,account__946,payment,250.0,PENDING,idem_31ed-fdf6-078c,,,outage,none,,timeout=UNKNOWN
+2026-11-15 08:54:11.785,txn_5431,cust_new_946,account__946,payment,250.0,SUCCESS,idem_31ed-fdf6-078c,50,MEDIUM,outage,none,,oob_verified
+2026-11-15 08:54:33.997,txn A,cust_4471,account_4471,deposit,5000.0,COMMITTED,,,,,serialized,3,
+2026-11-15 08:54:34.028,txn B,cust_4471,account_4471,withdraw,-2000.0,COMMITTED,,,,,serialized,4,
+2026-11-15 08:54:38.629,txn A,cust_4471,account_4471,deposit,5000.0,COMMITTED,,,,,serialized,5,
+2026-11-15 08:54:38.660,txn B,cust_4471,account_4471,withdraw,-2000.0,COMMITTED,,,,,serialized,6,
+2026-11-15 08:54:39.991,txn A,cust_4471,account_4471,deposit,5000.0,COMMITTED,,,,,serialized,7,
+2026-11-15 08:54:40.021,txn B,cust_4471,account_4471,withdraw,-2000.0,COMMITTED,,,,,serialized,8,
+2026-11-15 08:54:41.437,txn A,cust_4471,account_4471,deposit,5000.0,COMMITTED,,,,,serialized,9,
+2026-11-15 08:54:41.467,txn B,cust_4471,account_4471,withdraw,-2000.0,COMMITTED,,,,,serialized,10,
+2026-11-15 08:54:42.796,txn A,cust_4471,account_4471,deposit,5000.0,COMMITTED,,,,,serialized,11,
+2026-11-15 08:54:42.827,txn B,cust_4471,account_4471,withdraw,-2000.0,COMMITTED,,,,,serialized,12,
+2026-11-15 08:54:44.221,txn A,cust_4471,account_4471,deposit,5000.0,COMMITTED,,,,,serialized,13,
+2026-11-15 08:54:44.251,txn B,cust_4471,account_4471,withdraw,-2000.0,COMMITTED,,,,,serialized,14,
+2026-11-15 08:54:45.789,txn A,cust_4471,account_4471,deposit,5000.0,COMMITTED,,,,,serialized,15,
+2026-11-15 08:54:45.819,txn B,cust_4471,account_4471,withdraw,-2000.0,COMMITTED,,,,,serialized,16,
+2026-11-15 08:54:49.957,txn_A,cust_4471,account_4471,deposit,5000.0,COMMITTED,,,,,micro-lock,17,
+2026-11-15 08:54:52.934,txn_A,cust_4471,account_4471,deposit,5000.0,COMMITTED,,,,,micro-lock,18,

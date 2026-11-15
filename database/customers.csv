@@ -1,0 +1,21 @@
+ts,customer_id,profile,account_id,account_age_days,status,balance,version
+2026-11-15 08:36:14.551,cust_4471,returning,account_4471,900,active,10000,1
+2026-11-15 08:36:14.554,cust_5120,returning,account_5120,450,active,3200,1
+2026-11-15 08:36:14.566,cust_9001,new,account_9001,3,active,150,1
+2026-11-15 08:37:07.879,cust_4471,returning,account_4471,900,active,15000.0,2
+2026-11-15 08:54:34.001,cust_4471,returning,account_4471,900,active,20000.0,3
+2026-11-15 08:54:34.029,cust_4471,returning,account_4471,900,active,18000.0,4
+2026-11-15 08:54:38.637,cust_4471,returning,account_4471,900,active,23000.0,5
+2026-11-15 08:54:38.662,cust_4471,returning,account_4471,900,active,21000.0,6
+2026-11-15 08:54:39.995,cust_4471,returning,account_4471,900,active,26000.0,7
+2026-11-15 08:54:40.023,cust_4471,returning,account_4471,900,active,24000.0,8
+2026-11-15 08:54:41.442,cust_4471,returning,account_4471,900,active,29000.0,9
+2026-11-15 08:54:41.469,cust_4471,returning,account_4471,900,active,27000.0,10
+2026-11-15 08:54:42.798,cust_4471,returning,account_4471,900,active,32000.0,11
+2026-11-15 08:54:42.832,cust_4471,returning,account_4471,900,active,30000.0,12
+2026-11-15 08:54:44.222,cust_4471,returning,account_4471,900,active,35000.0,13
+2026-11-15 08:54:44.252,cust_4471,returning,account_4471,900,active,33000.0,14
+2026-11-15 08:54:45.799,cust_4471,returning,account_4471,900,active,38000.0,15
+2026-11-15 08:54:45.821,cust_4471,returning,account_4471,900,active,36000.0,16
+2026-11-15 08:54:49.961,cust_4471,returning,account_4471,900,active,41000.0,17
+2026-11-15 08:54:53.074,cust_4471,returning,account_4471,900,active,46000.0,18

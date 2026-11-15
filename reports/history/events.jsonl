@@ -1,0 +1,19 @@
+{"ts": "2026-11-15 08:36:52.655", "agent": "fraud", "txn_id": "txn_3033", "profile": "returning", "network": "outage", "risk": 11, "tier": "LOW", "state": "SUCCESS", "llm_used": true}
+{"ts": "2026-11-15 08:37:07.884", "agent": "lock", "mode": "read_write", "ok": true, "balance": 15000.0}
+{"ts": "2026-11-15 08:37:38.287", "agent": "fraud", "txn_id": "txn_8516", "profile": "new", "network": "stable", "risk": 85, "tier": "HIGH", "state": "FAILED", "llm_used": true}
+{"ts": "2026-11-15 08:37:46.735", "agent": "fraud", "txn_id": "txn_6076", "profile": "new", "network": "outage", "risk": 51, "tier": "MEDIUM", "state": "SUCCESS", "llm_used": true}
+{"ts": "2026-11-15 08:37:53.721", "agent": "fraud", "txn_id": "txn_7587", "profile": "returning", "network": "outage", "risk": 11, "tier": "LOW", "state": "SUCCESS", "llm_used": true}
+{"ts": "2026-11-15 08:37:57.367", "agent": "fraud", "txn_id": "txn_5064", "profile": "returning", "network": "stable", "risk": 21, "tier": "LOW", "state": "SUCCESS", "llm_used": true}
+{"ts": "2026-11-15 08:38:00.221", "agent": "fraud", "txn_id": "txn_3897", "profile": "returning", "network": "stable", "risk": 20, "tier": "LOW", "state": "SUCCESS", "llm_used": true}
+{"ts": "2026-11-15 08:53:19.981", "agent": "fraud", "txn_id": "txn_5162", "profile": "returning", "network": "outage", "risk": 11, "tier": "LOW", "state": "SUCCESS", "llm_used": true}
+{"ts": "2026-11-15 08:53:54.958", "agent": "fraud", "txn_id": "txn_1173", "profile": "new", "network": "stable", "risk": 84, "tier": "HIGH", "state": "FAILED", "llm_used": true}
+{"ts": "2026-11-15 08:54:11.812", "agent": "fraud", "txn_id": "txn_5431", "profile": "new", "network": "outage", "risk": 50, "tier": "MEDIUM", "state": "SUCCESS", "llm_used": true}
+{"ts": "2026-11-15 08:54:34.031", "agent": "lock", "mode": "write_write", "ok": true, "balance": 18000.0}
+{"ts": "2026-11-15 08:54:38.666", "agent": "lock", "mode": "write_write", "ok": true, "balance": 21000.0}
+{"ts": "2026-11-15 08:54:40.024", "agent": "lock", "mode": "write_write", "ok": true, "balance": 24000.0}
+{"ts": "2026-11-15 08:54:41.471", "agent": "lock", "mode": "write_write", "ok": true, "balance": 27000.0}
+{"ts": "2026-11-15 08:54:42.837", "agent": "lock", "mode": "write_write", "ok": true, "balance": 30000.0}
+{"ts": "2026-11-15 08:54:44.255", "agent": "lock", "mode": "write_write", "ok": true, "balance": 33000.0}
+{"ts": "2026-11-15 08:54:45.823", "agent": "lock", "mode": "write_write", "ok": true, "balance": 36000.0}
+{"ts": "2026-11-15 08:54:49.967", "agent": "lock", "mode": "read_write", "ok": true, "balance": 41000.0}
+{"ts": "2026-11-15 08:54:53.225", "agent": "lock", "mode": "read_write", "ok": true, "balance": 46000.0}

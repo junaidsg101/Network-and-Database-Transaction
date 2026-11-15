@@ -1,0 +1,1 @@
+# Optional: paste a URL to a customers CSV (same columns as database/customers.csv) to seed an alternative online database.
